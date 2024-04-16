@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#todo{
+    background: linear-gradient(#fab1a0,#ff7675) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    padding: 10px;
+    color: #fff;
+}
+.card{
+    padding: 10px 20px;
+    /* background-color:#b2bec3; */
+    border-radius: 5px;
+}
+.card .box{
+    display: flex;
+
+}
+
+.card input, button{
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+}
+
+
+
+
+
+
+
+
+
+
+#random{
+    background-color: #B53471;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#random input, #random button{
+   padding: 15px 20px;
+   border: none;
+   outline: none;
+}
+#random button{
+    background-color: #fab1a0;
+    color: #fff;
+}
+#random .container{
+    display: flex;
+}

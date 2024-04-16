@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#faq_section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 800px;
+    margin:auto;
+    position: relative;
+
+}
+.faq{
+    margin: 10px 0;
+}
+.faq_header{
+    background-color: azure;
+    padding: 10px;
+    cursor: pointer;
+}
+#faq_section h4{
+    color: #000;
+}
+#faq_section .faq_body{
+    color: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s all ease;
+}
+#faq_section .faq_header.active ~ .faq_body{
+    background-color: rgb(112, 101, 101);
+    height: auto;
+    padding: 30px 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <section id="color-generator">
+        <div class="container">
+            <div class="color-box">
+                <h2 style="text-align: center; line-height: 30px; color: #fff;">hsl( <span class="hueCode">0</span>, <span class="saturationCode">0</span>, <span class="brightnessCode">0</span> )</h2>
+                <!-- <img style="width: 100% ;" src="https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=1024x1024&w=is&k=20&c=K8yBJVB-TtpPF1O2zOhVlzXECDxJsadlRrLf4gXXNkk=" alt=""> -->
+            </div>
+
+            <div class="ranges">
+                <div class="first-range range-slide">
+                    <input type="range" class="hue">
+                    <h4>H</h4>
+                    <span class="hueCode">0</span>
+                </div>
+                <div class="second-range range-slide">
+                    <input type="range" class="saturation">
+                    <h4>S</h4>
+                    <span class="saturationCode">0</span>
+                </div>
+                <div class="third-range range-slide">
+                    <input value="300" max="100" type="range" class="brightness">
+                    <h4>L</h4>
+                    <span class="brightnessCode">0</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
